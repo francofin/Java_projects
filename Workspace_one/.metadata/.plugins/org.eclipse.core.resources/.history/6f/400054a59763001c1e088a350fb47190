@@ -1,0 +1,39 @@
+package Objects;
+
+public class Animal {
+	String phylus;
+	String type_of_animal;
+	int age;
+	double weight;
+	boolean is_mammal;
+	boolean is_poisonous;
+	
+	public Animal(String phylus, String type_of_animal, int age, double weight, boolean is_mammal, boolean is_poisonous) {
+		super();
+		this.phylus = phylus;
+		this.type_of_animal = type_of_animal;
+		this.age = age;
+		this.weight = weight;
+		this.is_mammal = false;
+		this.is_poisonous = false;
+		
+	}
+	
+	public void eat() {
+		System.out.println("Eating");
+	}
+	
+	public void play() {
+		System.out.println("Playing");
+	}
+	
+	public void interact(boolean poison_level) {
+		if (poison_level) {
+			System.out.println("This animal is posionous, Please try to avoid interactions with the animal");
+		} else {
+			System.out.println("This animal can be your best friend show them all the love.");
+		}
+	}
+	
+
+}

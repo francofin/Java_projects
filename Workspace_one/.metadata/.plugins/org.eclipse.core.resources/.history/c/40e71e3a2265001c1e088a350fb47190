@@ -1,0 +1,45 @@
+package java_practice;
+
+public class Looping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		while(count <= 10) {
+			System.out.println("Francois"); System.out.println(count);
+			System.out.println("Francois: " + count);
+			if (count== 5) {
+				break;
+			}
+			count +=1;	
+		}
+		
+		String sentence = "We have a large inventory of things in our warehouse falling in the category:apparel, "
+				+" and the slightly more in demand category:makeup along with the category:furniture";
+		
+		String [] strArray = sentence.split(":");
+		
+		
+		
+		System.out.println(sentence.indexOf(":",0));
+		for (String a: strArray) {
+			System.out.println(a[0]);
+		}
+
+	}
+	
+	
+	
+	public static void printCategories(String arg) {
+//		Extract all categories from the string argument
+//		int count = 0;
+//		String [] categories = new String[100];
+//		
+//		while (count<arg.length()) {
+//			int firstOccurence = arg.indexOf("category:", 0);
+//			
+//		}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package generics;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//These array lists and hashmaps are generics
+		ArrayList<String> myList = new ArrayList<String>();
+
+	}
+
+}

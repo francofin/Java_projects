@@ -1,0 +1,14 @@
+package java_basics;
+
+public class VariablesCont {
+
+	public static void main(String[] args) {
+		int var = 1000000000;
+		long bigNumber = 100000000000L;
+		short smallNumber = 32767;
+		byte reallySmallNumber = 127;
+		double decimals = 2098.777;
+		boolean decision = true;
+	}
+
+}

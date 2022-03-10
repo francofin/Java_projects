@@ -1,0 +1,17 @@
+package car_dealership;
+
+public class Cars {
+	
+	String make;
+	String model;
+	String typeOfCar;
+	double price;
+	int hp;
+	String color;
+	boolean isUsed;
+	short year;
+
+//	public static double getPrice() {
+//		
+//	}
+}

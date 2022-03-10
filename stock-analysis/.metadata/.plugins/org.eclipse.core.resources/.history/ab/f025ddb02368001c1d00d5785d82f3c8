@@ -1,0 +1,14 @@
+package client;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+	
+		ArrayList<String> myList = new ArrayList<>();
+		myList.add("Some Cool Things to analyze");
+
+	}
+
+}

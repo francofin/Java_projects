@@ -1,0 +1,23 @@
+package car_dealership;
+
+public class Customer {
+	
+	String name;
+	String address;
+	double cashOnHand;
+	boolean returningCustomer;
+	boolean hardToSell;
+	
+	public Customer(String name, String address, double cashOnHand, boolean returningCustomer) {
+		super();
+		this.name = name;
+		this.address = address;
+		this.cashOnHand = cashOnHand;
+		this.returningCustomer = returningCustomer;
+	}
+
+	public static void puchaseCar(Vehicle vehicle, Employee emp, boolean finance) {
+		
+	}
+
+}

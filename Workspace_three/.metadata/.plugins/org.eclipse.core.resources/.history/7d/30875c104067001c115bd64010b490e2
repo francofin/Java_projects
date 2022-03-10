@@ -1,0 +1,9 @@
+package list1;
+
+public class Employees {
+	String name;
+	int age;
+	double salary;
+	String title;
+	
+}

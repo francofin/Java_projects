@@ -1,0 +1,15 @@
+package Objects;
+
+public class Chicken extends Bird{
+
+	public Chicken(String phylus, String type_of_animal, int age, double weight, boolean is_mammal,
+			boolean is_poisonous, String name) {
+		super(phylus, type_of_animal, age, weight, is_mammal, is_poisonous, name);
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void fluy() {
+		System.out.println("Not able to fly.");
+	}
+
+}

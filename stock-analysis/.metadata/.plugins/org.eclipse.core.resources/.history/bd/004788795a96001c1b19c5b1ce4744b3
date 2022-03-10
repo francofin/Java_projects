@@ -1,0 +1,33 @@
+package generics;
+
+public class Container<i1, i2> {
+	
+	//i1 and i2 are the generic types that we enter into the class
+	
+	i1 item1;
+	i2 item2;
+	public Container(i1 item1, i2 item2) {
+		super();
+		this.item1 = item1;
+		this.item2 = item2;
+	}
+	public Object getItem1() {
+		return item1;
+	}
+	public void setItem1(Object item1) {
+		this.item1 = item1;
+	}
+	public Object getItem2() {
+		return item2;
+	}
+	public void setItem2(Object item2) {
+		this.item2 = item2;
+	}
+	
+	
+	public void printItems() {
+		System.out.println("Item 1: "+this.item1);
+		System.out.println("Item 2: "+this.item2);
+	}
+
+}

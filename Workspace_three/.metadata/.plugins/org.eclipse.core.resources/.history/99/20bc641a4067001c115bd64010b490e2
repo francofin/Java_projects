@@ -1,0 +1,18 @@
+package list1;
+
+public class Employees {
+	String name;
+	int age;
+	double salary;
+	String title;
+	
+	
+	public Employees(String name, int age, double salary, String title) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+		this.title = title;
+	}
+	
+}

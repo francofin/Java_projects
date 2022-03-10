@@ -1,0 +1,27 @@
+package list1;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> animals = new ArrayList<String>();
+		animals.add("Dog");
+		animals.add("Lion");
+		animals.add("Zebra");
+		animals.add("Bird");
+		animals.add("Pig");
+		
+		for (int i =0; i<animals.size(); i++) {
+			System.out.println(animals.get(i));
+		}
+		
+		System.out.println("-------------------------------");
+		for (String str: animals) {
+			System.out.println(str);
+		}
+		
+	}
+
+}

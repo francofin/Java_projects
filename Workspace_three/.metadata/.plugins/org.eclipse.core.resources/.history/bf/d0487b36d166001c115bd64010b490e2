@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> words = new ArrayList<String>();
+		words.add("Hello");
+		words.add("What Up");
+		words.add(10);
+		words.add(50.55);
+//		words.remove(0);
+		
+		String item1 = (String) words.get(0);
+		System.out.println(item1);
+		Object item2 = words.get(1);
+		int item3 = (int) words.get(2);
+		double item4 = (double) words.get(3);
+		System.out.println(item3 + item4);
+		
+	}
+
+}

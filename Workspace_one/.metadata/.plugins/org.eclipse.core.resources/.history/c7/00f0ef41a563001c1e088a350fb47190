@@ -1,0 +1,9 @@
+package Objects;
+
+public class Bird extends Animal{
+	String name;
+	
+	public void fly() {
+		System.out.println("Flying...");
+	}
+}

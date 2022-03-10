@@ -1,0 +1,49 @@
+package car_dealership;
+
+public class Employee {
+	String name;
+	String title;
+	int employeeId;
+	private boolean decisionMaker;
+	
+	
+	
+	
+	
+	public boolean isDecisionMaker() {
+		return decisionMaker;
+	}
+
+
+	public void setDecisionMaker(boolean decisionMaker) {
+		this.decisionMaker = decisionMaker;
+	}
+
+
+	public Employee(String name, String title, int employeeId, boolean decisionMaker) {
+		super();
+		this.name = name;
+		this.title = title;
+		this.employeeId = employeeId;
+		this.decisionMaker = decisionMaker;
+	}
+
+
+	public void handleCustomer(Customer cust, Cars car) {
+		
+		if(cust.isLeasing) {
+			double loanAmount = car.getPrice(cust) - cust.getCashOnHand();	
+		} 
+	}
+	
+	
+	public void runCreditHistory(Customer cust) {
+		
+	}
+	
+	
+	public void processTransaction(Customer cust, double loanAmount) {
+		
+	}
+
+}

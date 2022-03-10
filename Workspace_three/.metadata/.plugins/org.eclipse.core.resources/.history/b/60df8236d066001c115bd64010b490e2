@@ -1,0 +1,17 @@
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList words = new ArrayList();
+		words.add("Hello");
+		words.add("What Up");
+		words.add(10);
+		words.add(50.55);
+		words.remove(0);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package java_practice;
+
+public class Looping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		while(count <= 10) {
+			System.out.println("Francois"); System.out.println(count);
+			System.out.println("Francois: " + count);
+			if (count== 5) {
+				break;
+			}
+			count +=1;
+			
+		}
+		System.out.println(count);
+
+	}
+
+}

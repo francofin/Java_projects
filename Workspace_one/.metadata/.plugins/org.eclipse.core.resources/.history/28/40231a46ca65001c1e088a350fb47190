@@ -1,0 +1,58 @@
+package car_dealership;
+
+public class Employee {
+	String name;
+	String title;
+	int employeeId;
+	private boolean decisionMaker;
+	
+	
+	
+	
+	
+	public boolean isDecisionMaker() {
+		return decisionMaker;
+	}
+
+
+	public void setDecisionMaker(boolean decisionMaker) {
+		this.decisionMaker = decisionMaker;
+	}
+
+
+	public Employee(String name, String title, int employeeId, boolean decisionMaker) {
+		super();
+		this.name = name;
+		this.title = title;
+		this.employeeId = employeeId;
+		this.decisionMaker = decisionMaker;
+	}
+
+
+	public void handleCustomer(Customer cust, Cars car) {
+		
+		if(cust.isLeasing) {
+			double loanAmount = car.getPrice(cust) - cust.getCashOnHand();	
+			runCreditHistory(cust, loanAmount);		
+		} else if (!cust.isLeasing) {
+			if(car.getPrice(cust) <= cust.getCashOnHand()) {
+				processTransaction(cust, employeeId);
+			}
+		}
+	}
+	
+	
+	public void runCreditHistory(Customer cust, double loanAmount) {
+		
+		System.out.println("Ran Credit History for Customer...");
+		System.out.println("Customer has been approved to purhcase vehicle.");
+		
+	}
+	
+	
+	public void processTransaction(Customer cust, this, Cars car) {
+		System.out.println("Customer is purchasing vehicle with cash, transaction assigned to "+ this.name);
+		System.out.println("Total Purchase price is $"+car.getPrice(cust));
+	}
+
+}

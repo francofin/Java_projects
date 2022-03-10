@@ -1,0 +1,23 @@
+package Objects;
+
+public class Earth {
+	public static void main(String[] args) {
+		Human tom;
+		tom = new Human();
+		tom.age = 20;
+		tom.eyeColor = "brown";
+		tom.heighInches = 117;
+		tom.name = "Tom Zoolander";
+		tom.profession = "Developer";
+		tom.speak();
+		
+		Human jane;
+		jane = new Human();
+		jane.age = 19;
+		jane.eyeColor = 'blue';
+		jane.name = "Jane Cajawoski";
+		jane.profession = "Developer";
+		jane.heighInches = 114;
+		jane.eat();
+	}
+}

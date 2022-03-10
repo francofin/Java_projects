@@ -1,0 +1,17 @@
+package car_dealership;
+
+public class Dealership {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Customer cust1 = new Customer("", "", 0.0, false, false);
+		cust1.setCashOnHand(15000.00);
+		
+		System.out.println(cust1.getCashOnHand());
+		
+
+	}
+
+}

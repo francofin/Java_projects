@@ -1,0 +1,15 @@
+package java_practice;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name = "hjbfshjbflnjkandsfjkbfh";
+		for (int i = 0; i<name.length(); i++) {
+			System.out.println("i: "+name.charAt(i));
+		}
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package threading;
+
+public class Sequence {
+
+	private int value = 0;
+	
+	//not thread safe.
+	
+	public int getNext() {
+		value++;
+		return value;
+	}
+}

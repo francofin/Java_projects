@@ -1,0 +1,21 @@
+package generics;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//These array lists and hashmaps are generics
+		ArrayList<String> myList = new ArrayList<String>();
+		Container container = new Container(12, "Hello");
+		
+		
+		
+		container.printItems();
+		container.setItem1(15);
+		container.printItems();
+
+	}
+
+}

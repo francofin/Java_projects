@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\franc\Documents\Java\stock-analysis\.metadata\.plugins\org.eclipse.jdt.core
+3056892398.index
+1865797976.index
+3883950653.index
+1554272215.index
+1275262833.index

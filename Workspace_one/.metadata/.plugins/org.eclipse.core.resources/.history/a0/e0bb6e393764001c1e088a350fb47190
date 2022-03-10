@@ -1,0 +1,14 @@
+package java_practice;
+
+public class StringPractice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a = "hello";
+		
+		System.out.println(a.length());
+		System.out.println(a.substring(1));
+
+	}
+
+}

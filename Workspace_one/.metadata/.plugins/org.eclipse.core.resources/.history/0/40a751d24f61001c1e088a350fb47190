@@ -1,0 +1,16 @@
+package java_basics;
+
+public class LearningMethods {
+
+	public static void main(String[] args) {
+		MyUtils.printSomeStuff(35);
+		MyUtils.sumTwoNumbers(30, 80);
+		int addten = MyUtils.add10(57);
+		System.out.println(addten);
+		printSomethingCool();
+		
+	}
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package car_dealership;
+
+public class Dealership {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Customer cust1 = new Customer("Thomas Barkley", "58 New Haven Road, Pensylvania, PA, 99657", 15000.00, true, true);
+		
+		
+		System.out.println(cust1.getCashOnHand());
+		
+
+	}
+
+}

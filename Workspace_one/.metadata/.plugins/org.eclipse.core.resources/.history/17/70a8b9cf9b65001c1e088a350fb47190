@@ -1,0 +1,45 @@
+package car_dealership;
+
+public class Cars {
+	
+	String make;
+	String model;
+	String typeOfCar;
+	private double price;
+	int hp;
+	String color;
+	boolean isUsed;
+	short year;
+	
+	public Cars(String make, String model, String typeOfCar, double price, int hp, String color, boolean isUsed,
+			short year) {
+		super();
+		this.make = make;
+		this.model = model;
+		this.typeOfCar = typeOfCar;
+		this.price = price;
+		this.hp = hp;
+		this.color = color;
+		this.isUsed = isUsed;
+		this.year = year;
+	}
+
+	public double getPrice(Customer customer, double price) {
+		
+		if (customer.returningCustomer) {
+			price = price - 5000.0;
+		} else {
+			;
+		}
+		
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+//	public static double getPrice() {
+//		
+//	}
+}

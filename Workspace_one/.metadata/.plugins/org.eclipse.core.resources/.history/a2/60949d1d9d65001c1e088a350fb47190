@@ -1,0 +1,29 @@
+//package car_dealership;
+//
+//public class Employee {
+//	
+//	
+//	
+//	public void handleCar(Customet cust, boolean finance, Vehicle vehicle) {
+//		
+//		if(finance) {
+//			runCreditHistory(Cusgtomer cust, double loanAmount)
+//		} else if (vehicle.getPrice() <= cust.cashOnHand) {
+//			processTransaction(null, 0);
+//		}
+//		else {
+//			"Bring More Money";
+//		}
+//	}
+//	
+//	
+//	public void runCreditHistory(Cusgtomer cust, double cashOnHand) {
+//		
+//	}
+//	
+//	
+//	public void processTransaction(Cusgtomer cust, double loanAmount) {
+//		
+//	}
+//
+//}
